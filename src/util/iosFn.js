@@ -16,6 +16,6 @@ class IosData{//创建类
 var setReturnData = new IosData()//创建IosData实例化对象
 window.pp = function (message) {
   let showData = "JavaScript接收到的值:"+message
-	setReturnData.set("pp",showData)
+	setReturnData.set("pp",showData)//将ios传回的值存储到IosData类中
 }
 export default setReturnData
